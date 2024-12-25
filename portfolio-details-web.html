@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Portfolio Details - Projet Web API REST avec Vue.js</title>
+    <meta name="description" content="Détails du projet Web développé avec Vue.js et API REST">
+    <meta name="keywords" content="Web, API REST, Vue.js, Développement, Portfolio">
+
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <link href="assets/css/portfolio.css" rel="stylesheet">
+</head>
+
+<body class="portfolio-details-page">
+
+<header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center">
+            <h1 class="sitename">Portfolio</h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+            <ul>
+                <li><a href="index.html" class="active">Accueil<br></a></li>
+                <li class="dropdown"><a href="#"><span>Portfolio d'apprentissage</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                    <ul>
+                        <li><a href="portfolio-details-casino.html">Projet 1 : SAE, Jeu de Casino</a></li>
+                        <li><a href="portfolio-details-web.html">Projet 2 : Projet Web : API Rest avec Vue.js</a></li>
+                        <li><a href="portfolio-details-stage.html">Projet 3 : Stage : Utilisation de Prestashop et Wordpress</a></li>
+                        <li><a href="portfolio-details-ecommerce.html">Projet 4 : SAE : Création d'un site e-commerce avec un logiciel</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+    </div>
+</header>
+
+<main class="main">
+    <div class="page-title" data-aos="fade">
+        <div class="container d-lg-flex justify-content-between align-items-center">
+            <h1 class="mb-2 mb-lg-0">Projet Web : API Rest avec Vue.js</h1>
+            <nav class="breadcrumbs">
+                <ol>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="#">Portfolio d'apprentissage</a></li>
+                    <li class="current">API Rest avec Vue.js</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+
+    <section id="portfolio-details" class="portfolio-details section">
+        <div class="container" data-aos="fade-up">
+            <div class="portfolio-details-slider swiper init-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="assets/img/projet-web.png" alt="Projet Web API Rest" style="width: 50%; height: 50%;">
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-lg-8">
+                    <h2 class="portfolio-title">Description du projet</h2>
+                    <p>Le projet consiste en la création d'une API REST de gestion d’événements, développée avec Symfony et API Platform. L’objectif est de permettre aux utilisateurs d'interagir avec des événements d'un thème spécifique (par exemple, des événements sportifs, des projections de films, etc.). L'API permettra de gérer l'inscription des utilisateurs, la création, la gestion et la suppression des événements, ainsi que l'affichage des participants et de leurs détails. L’API devra aussi prendre en compte des rôles utilisateurs (organisateurs, administrateurs, et utilisateurs classiques) et permettre diverses interactions telles que la modification du profil, l'inscription aux événements et la gestion des événements par les organisateurs.</p>
+                    <ul>
+                        <li>Création d'API REST pour la gestion des données utilisateur.</li>
+                        <li>Développement d'une interface front-end dynamique avec Vue.js.</li>
+                    </ul>
+                    <blockquote>
+                        <p>"Ce projet m'a permis de renforcer mes compétences en développement web et en gestion d'API."</p>
+                    </blockquote>
+                </div>
+
+                <div class="col-lg-4 portfolio-info">
+                    <h3 class="info-title">Informations</h3>
+                    <ul class="info-list">
+                        <li><strong>Projet :</strong> Relier API REST et Vue.js</li>
+                        <li><strong>Date :</strong> Septembre 2024 - Décembre 2024</li>
+                        <li><strong>Technologies :</strong> Vue.js, PHP, JS, Symfony, Docker, MySQL</li>
+                    </ul>
+                    <div class="btn-group">
+                        <a href="https://github.com/chmaee/API_REST" target="_blank" class="btn btn-primary">
+                            Voir sur GitHub API REST
+                        </a>
+                        <a href="https://github.com/chmaee/Vue_JS_Sponsoring" target="_blank" class="btn btn-primary">
+                            Voir sur GitHub Vue.JS
+                        </a>
+                        <a href="https://github.com/chmaee/Annuaire" target="_blank" class="btn btn-primary">
+                            Voir sur GitHub Annuaire
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="portfolio-description">
+                <h2>Projet : Développement d'une API Rest avec Vue.js</h2>
+
+                <h3>Contexte du projet</h3>
+                <p>
+                    Le projet est réalisé en trinôme dans le cadre de la SAE du projet web. Il se base sur la création d'une API REST afin de gérer un service de gestion d'événements. Le backend de cette API est développé avec Symfony et API Platform, et l'API devra être conçue de manière à pouvoir interagir avec un futur front-end développé en Vue.js. Le système comprend des fonctionnalités comme l'inscription et la gestion des comptes utilisateurs, la création et la gestion des événements, ainsi que des rôles différenciés pour les utilisateurs, les organisateurs et les administrateurs.
+                </p>
+
+                <h3>Méthodes de travail et résultats obtenus</h3>
+                <p>
+                    Le développement des trois projets s'est fait petit à petit. Tout d'abord, le projet de l'annuaire a été réalisé, suivi quelques semaines plus tard par la création de l'API REST. Enfin, le projet Vue.js a été développé pour ajouter une interface front-end moderne permettant à l'utilisateur d'interagir avec les données en temps réel. Chaque projet a été construit progressivement pour répondre aux besoins fonctionnels et techniques au fur et à mesure de l'avancement.
+                </p>
+
+                <h3>Contributions personnelles</h3>
+                <p>
+                    En tant que développeur, j'ai collaboré avec mes coéquipiers sur les trois projets : l'annuaire, l'API REST et l'interface Vue.js. Ensemble, nous avons conçu l'architecture de l'API, développé les endpoints nécessaires et optimisé les performances des applications. Chacun de nous a contribué à différentes étapes du développement, ce qui nous a permis de mener à bien chaque projet de manière cohérente et efficace.
+                </p>
+                    <br>
+                <p>Mes contributions se sont les suivants (que ça soit l'API ou Vue.js et Annuaire) :</p>
+                    <ul>
+                        <li>L'implémentation des fonctionnalités d'inscription et d’authentification des utilisateurs.</li>
+                        <li>La création et la gestion des événements, avec l'intégration des informations spécifiques liées au thème choisi.</li>
+                        <li>La gestion des rôles utilisateurs (administrateurs, organisateurs).</li>
+                        <li>L'implémentation de la fonctionnalité permettant aux organisateurs de rendre publiques ou privées les listes de participants des événements.</li>
+                        <li>L'optimisation des performances de l'API pour garantir une bonne gestion des requêtes.</li>
+                    </ul>
+            </div>
+
+                <div class="portfolio-skills mt-5">
+                    <h2>Compétences travaillées au cours du projet</h2>
+
+                    <div class="skills">
+                        <div class="skill-group">
+                            <h3>Compétence 1 : Développement d'applications</h3>
+                            <ul>
+                                <li><strong>Composantes Essentielles :</strong></li>
+                                <li>CE1.01 : <strong>En respectant les besoins décrits par le client.</strong> J'ai respecté les besoins demandés en m'appuyant sur les consignes précis, en organisant des réunions avec mon équipe, et en réalisant une API qui répond aux fonctionnalités demandées, telles que la gestion des utilisateurs et des évènements.</li>
+                                <li>CE1.03 : <strong>En appliquant les principes algorithmiques.</strong> J'ai conçu des algorithmes efficaces pour gérer les "groupes" pour chaque attribut de la classe (pour donner accès à certains utilisateurs). J'ai aussi gérer les données des utilisateurs, des évènements et des participants dans la base de données, tout en optimisant les temps de réponse grâce à des requêtes SQL bien structuré.</li>
+                                <li>CE1.04 : <strong>En veillant à la qualité du code et à sa documentation.</strong> J'ai adopté une démarche rigoureuse de revue de code en utilisant des concepts pour garantir la qualité du code, et j'ai documenté certains fonctions avec des commentaires concis pour faciliter la maintenance et la lisibilité.</li>
+                                <li>CE1.06 : <strong>En choisissant les ressources techniques appropriées.</strong> J'ai utilisé Symfony et Vue.js en raison de leur compatibilité avec les exigences du projet, tout en configurant un environnement de développement local avec Docker pour assurer une transition fluide vers la production.</li>
+                            </ul>
+                            <ul>
+                                <li><strong>Niveau 3 :</strong></li>
+                                <li>AC31.01 : <strong>Choisir et implémenter les architectures adaptées.</strong> J'ai implémenté une architecture REST (API Platform) pour permettre une communication efficace entre le front-end et le back-end, en veillant à séparer les préoccupations entre la logique métier et la présentation.</li>
+                                <li>AC31.03 : <strong>Intégrer des solutions dans un environnement de production.</strong> J'ai utilisé Docker pour déployer l'API et assurer sa compatibilité avec différents environnements tout en automatisant les tests et le déploiement avec GitLab.</li>
+                            </ul>
+                        </div>
+
+                        <div class="skill-group">
+                            <h3>Compétence 5 : Conduire un Projet</h3>
+                            <ul>
+                                <li><strong>Composantes Essentielles :</strong></li>
+                                <li>CE5.01 : <strong>En communiquant efficacement avec les différents acteurs d’un projet.</strong> J'ai communiqué avec mon équipe avec des réunions régulières pour suivre l'avancement du projet, clarifier les objectifs, et résoudre les problèmes techniques.</li>
+                                <li>CE5.02 : <strong>En respectant les règles juridiques et les normes en vigueur.</strong> J'ai respecté les contraintes liées au RGPD en anonymisant les données sensibles et en assurant un stockage sécurisé des informations utilisateur.</li>
+                                <li>CE5.04 : <strong>En adoptant une démarche proactive, créative et critique.</strong> J'ai respecté des solutions pour optimiser le processus de la gestion des utilisateurs et des évènements, avec l'API.</li>
+                            </ul>
+                            <ul>
+                                <li><strong>Niveau 3 :</strong></li>
+                                <li>AC35.01 : <strong>Mesurer les impacts économiques, sociétaux et technologiques d’un projet informatique.</strong> J'ai essayé d'analyser les coûts en terme de programmation du projet, en mettant en avant des solutions adaptable pour minimiser les dettes techniques à long terme.</li>
+                                <li>AC35.02 : <strong>Savoir intégrer un projet informatique dans le système d’information d’une organisation.</strong> J'ai intégré le système de la gestion d'évènements dans une infrastructure existante (Vue.js a utilisé l'API REST pour communiquer) en assurant une synchronisation fluide.</li>
+                                <li>AC35.03 : <strong>Savoir adapter un système d’information.</strong> J'ai adapté les fonctionnalités du système d’information pour répondre aux évolutions des besoins des utilisateurs.</li>
+                            </ul>
+                        </div>
+
+                        <div class="skill-group">
+                            <h3>Compétence 6 : Travailler dans une équipe informatique</h3>
+                            <ul>
+                                <li><strong>Composantes Essentielles :</strong></li>
+                                <li>CE6.01 : <strong>En inscrivant sa démarche au sein d’une équipe pluridisciplinaire.</strong> J'ai collaboré avec mes coéquipiers dans un environnement pluridisciplinaire, partageant les responsabilités pour garantir la réussite du projet.</li>
+                                <li>CE6.02 : <strong>En accompagnant la mise en œuvre des évolutions informatiques.</strong> J'ai accompagné la mise en œuvre des évolutions informatiques en intégrant des retours utilisateurs dans nos développements.</li>
+                                <li>CE6.03 : <strong>En veillant au respect des contraintes juridiques.</strong> J'ai respecté les contraintes juridiques et techniques, notamment en matière de sécurité et de protection des données.</li>
+                                <li>CE6.04 : <strong>En développant une communication efficace et collaborative.</strong> J'ai développé une communication claire et collaborative pour partager efficacement les avancées et les problématiques rencontrées avec mes coéquipiers.</li>
+                            </ul>
+                            <ul>
+                                <li><strong>Niveau 3 :</strong></li>
+                                <li>AC36.01 : <strong>Organiser et partager une veille technologique et informationnelle.</strong> J'ai organisé et partagé une veille technologique pour identifier les meilleures pratiques et outils adaptés au projet.</li>
+                                <li>AC36.02 : <strong>Identifier les enjeux de l’économie de l’innovation numérique.</strong> J'ai identifié les enjeux liés à l’économie de l’innovation numérique, comme l'intégration de solutions open source pour réduire les coûts.</li>
+                                <li>AC36.03 : <strong>Guider la conduite du changement informatique au sein d’une organisation.</strong> J'ai guidé la conduite du changement informatique en proposant des solutions innovantes à mon équipe et au client.</li>
+                                <li>AC36.04 : <strong>Accompagner le management de projet informatique.</strong> J'ai accompagné la gestion de projet en définissant des priorités et en coordonnant les efforts entre les membres de l’équipe.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer id="footer" class="footer accent-background">
+
+    <div class="container">
+        <div class="copyright text-center ">
+            <p>© <span>Copyright</span> <strong class="px-1 sitename">Portfolio Chaïmae 2025</strong> <span>Tous droits réservés</span></p>
+        </div>
+    </div>
+</footer>
+
+<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+<div id="preloader"></div>
+
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
