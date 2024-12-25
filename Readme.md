@@ -8,7 +8,7 @@ Ce portfolio est une démonstration de mes compétences en **HTML**, **CSS**, et
 - Mes compétences techniques et expériences.
 - Mon parcours académique et professionnel.
 
-[**Lien vers le portfolio**]() 🌟
+[**Lien vers le portfolio**](https://chmaee.github.io/Portfolio/) 🌟
 
 ---
 
@@ -23,7 +23,7 @@ Ce portfolio est une démonstration de mes compétences en **HTML**, **CSS**, et
 ## 🚀 Déploiement
 Ce portfolio est hébergé gratuitement sur **GitHub Pages**.  
 Pour le visualiser en ligne, cliquez sur le lien ci-dessous :  
-[**Mon Portfolio en Ligne**]()
+[**Mon Portfolio en Ligne**](https://chmaee.github.io/Portfolio/)
 
 ---
 
