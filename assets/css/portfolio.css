@@ -352,6 +352,7 @@ a:hover {
     }
 }
 
+
 /*--------------------------------------------------------------
 # Layout Styling
 --------------------------------------------------------------*/
@@ -847,4 +848,107 @@ Scroll to Top Button
     font-size: 14px;
     color: var(--default-color);
     margin: 0;
+}
+
+/* Carrousel */
+.carousel-inner {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+.carousel-item .row {
+    display: flex;
+    justify-content: center; /* Centre les cartes horizontalement */
+    gap: 20px; /* Espace entre les cartes */
+}
+
+.carousel-item .col-md-4 {
+    display: flex;
+    justify-content: center; /* Centrer chaque carte individuellement */
+}
+
+/* Style des flèches */
+.carousel-control-prev, .carousel-control-next {
+    background-color: transparent; /* Pas de fond */
+    color: #007bff; /* Couleur des flèches */
+    border: none; /* Supprimer les bordures */
+    font-size: 3rem; /* Taille des flèches */
+    position: absolute;
+    top: 50%; /* Centrer verticalement */
+    transform: translateY(-50%); /* Ajuster pour centrer parfaitement */
+}
+
+.carousel-control-prev {
+    left: 10px; /* Flèche à gauche */
+}
+
+.carousel-control-next {
+    right: 10px; /* Flèche à droite */
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    display: none; /* Masquer les anciens icônes */
+}
+
+/* Flèches en tant que caractères */
+.carousel-control-prev::before {
+    content: '←'; /* Flèche gauche */
+    font-size: 3rem;
+}
+
+.carousel-control-next::before {
+    content: '→'; /* Flèche droite */
+    font-size: 3rem;
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    color: #0056b3; /* Couleur des flèches au survol */
+}
+
+
+
+.card {
+    width: 100%; /* Occupe toute la largeur de la colonne */
+    max-width: 320px; /* Largeur maximale pour chaque carte */
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card img {
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.competence-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
 }
