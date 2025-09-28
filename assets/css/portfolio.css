@@ -952,3 +952,235 @@ Scroll to Top Button
     font-weight: bold;
     color: #333;
 }
+
+
+
+/* Portfolio Projet Prestashop - CSS personnalisé unique */
+
+body.custom-portfolio-page {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+#custom-header {
+    background: #212529;
+    padding: 1rem 0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+#custom-header .custom-logo h1 {
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+#custom-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#custom-menu ul li {
+    position: relative;
+}
+
+#custom-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+#custom-menu ul li a:hover,
+#custom-menu ul li a:focus {
+    color: #0d6efd; /* bootstrap primary */
+}
+
+#custom-menu ul li.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+#custom-menu .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 99;
+    min-width: 200px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    border-radius: 0.25rem;
+}
+
+#custom-menu .dropdown-item {
+    padding: 0.5rem 1rem;
+    color: #212529;
+    background: #fff;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+#custom-menu .dropdown-item:hover,
+#custom-menu .dropdown-item:focus {
+    background-color: #e9ecef;
+    color: #0d6efd;
+}
+
+#custom-main {
+    max-width: 1140px;
+    margin: 3rem auto;
+}
+
+#custom-project-title h2 {
+    color: #0d6efd;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.breadcrumb {
+    background: transparent;
+    padding-left: 0;
+    margin-bottom: 2rem;
+}
+
+.breadcrumb a {
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+#custom-project-visual img {
+    border-radius: 8px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+    max-width: 100%;
+}
+
+#custom-project-visual img:hover {
+    transform: scale(1.03);
+}
+
+.custom-text-box {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(13, 110, 253, 0.2);
+    color: #222;
+}
+.custom-text-box h3 {
+    border-bottom: 2px solid #0d6efd;
+    padding-bottom: 0.4rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.custom-text-box ul {
+    padding-left: 20px;
+    margin-bottom: 1.5rem;
+    color: #555;
+}
+
+.custom-text-box ul li {
+    margin-bottom: 0.4rem;
+}
+
+.custom-quote {
+    font-style: italic;
+    font-weight: 600;
+    color: #6c757d;
+    border-left-color: #0d6efd !important;
+    background: #e9f0fe;
+    border-radius: 6px;
+}
+.custom-info-card {
+    background-color: #fff;
+    border-radius: 12px;
+    border: 1px solid #dee2e6;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    color: #444;
+}
+
+.custom-info-card h4 {
+    border-bottom: 3px solid #0d6efd;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+.custom-info-card ul li {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.custom-info-card ul li strong {
+    color: #0d6efd;
+}
+
+.custom-info-card .btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    font-weight: 700;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.custom-info-card .btn-primary:hover,
+.custom-info-card .btn-primary:focus {
+    background-color: #084ec7;
+    border-color: #084ec7;
+    text-decoration: none;
+}
+#custom-footer {
+    background-color: #212529;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 992px) {
+    #custom-main {
+        margin: 2rem 1rem;
+    }
+
+    #custom-project-visual img {
+        max-width: 90%;
+    }
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.flex-container .custom-text-box {
+    flex: 1 1 45%;
+    min-width: 280px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(13, 110, 253, 0.2);
+    color: #222;
+    padding: 1.5rem;
+    box-sizing: border-box;
+}
+
+.flex-container .custom-text-box h3 {
+    border-bottom: 2px solid #0d6efd;
+    padding-bottom: 0.4rem;
+    margin-bottom: 1.25rem;
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .flex-container .custom-text-box {
+        flex-basis: 100%;
+    }
+}
+
